@@ -18,3 +18,9 @@ Express, Prisma 7, and PostgreSQL voting API.
 6. Run npx tsx src/app.ts.
 
 Authentication is stubbed for local testing.
+
+## Test cases
+- 201: Vote recorded successfully
+- 409: Duplicate vote rejected
+- 404: Post not found
+- 400: Invalid post ID
